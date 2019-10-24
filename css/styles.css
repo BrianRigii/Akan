@@ -1,0 +1,16 @@
+
+.navi{
+    display: flex;
+}
+.logomg{
+    position: absolute;
+    left: 120vh;
+}
+.logo{
+    font-family: 'Fredericka the Great', cursive;  
+    color :#595f6e  
+}
+.landing{
+    font-family: 'Poiret One', cursive;
+    font-size: 60vh;
+}
