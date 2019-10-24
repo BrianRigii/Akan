@@ -4,7 +4,7 @@
 }
 .logomg{
     position: absolute;
-    left: 120vh;
+    left: 108vh;
 }
 .logo{
     font-family: 'Fredericka the Great', cursive;  
@@ -12,5 +12,8 @@
 }
 .landing{
     font-family: 'Poiret One', cursive;
-    font-size: 60vh;
+    margin-top: 20vh;
+    color:#595f6e;
+    margin-left: 5vh
 }
+
