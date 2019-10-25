@@ -1,10 +1,12 @@
 
+}
 .navi{
     display: flex;
 }
 .logomg{
     position: absolute;
     left: 108vh;
+    overflow: hidden;
 }
 .logo{
     font-family: 'Fredericka the Great', cursive;  
@@ -12,8 +14,24 @@
 }
 .landing{
     font-family: 'Poiret One', cursive;
-    margin-top: 20vh;
-    color:#595f6e;
-    margin-left: 5vh
+    margin-top: 40vh;
+    color:black;
+    margin-left: 5vh;
+   
+    
+}
+.my-container{
+   
+    position: absolute;
+    margin-top: 200px;
+    z-index: 1;
+    height: 50vh;
+    
+}
+.cardi{
+    width: 90vh;
+}
+.contpg{
+    margin-top: 70vh;
 }
 
