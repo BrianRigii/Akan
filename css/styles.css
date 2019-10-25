@@ -1,11 +1,11 @@
 
-}
+
 .navi{
     display: flex;
 }
 .logomg{
     position: absolute;
-    left: 108vh;
+    left: 100vh;
     overflow: hidden;
 }
 .logo{
@@ -32,6 +32,13 @@
     width: 90vh;
 }
 .contpg{
-    margin-top: 70vh;
+    margin-top: 75vh;
+    background-color:#fefaf6
 }
+form{
+    position: absolute;
+    top: 120px;
+    justify-content: center;
+}
+
 

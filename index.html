@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <script src="/js/script.js"></script>
   </head>
   <body>
     <div class="navi">
@@ -54,14 +55,24 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid my">
-      <div class="row">
-        <div class="col-5">
-          <form>
-            
-          </form>
+    <div class="container-fluid contpg">
+      <div class="row justify-content-between">
+        <div class="col-4">
+          <div class="card-body">
+              <form>
+                  <label>Name</label><br>
+                  <input type="text" placeholder="Name" required><br>
+                  <label>Birthday</label><br>
+                  <input type="date"><br>
+                  Gender<br>
+                  <input type="radio" name="gender" value="male"> Male
+                  <input type="radio" name="gender" value="female"> Female<br>
+                  <button type="button" class="btn btn-dark">Check</button>
+                </form>
+          </div>
+         
         </div>
-        <div class="col-7 contpg">
+        <div class="col-4 ">
           <img src="images/land.jpeg" height="700vh">
         </div>
       </div>
