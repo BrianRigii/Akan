@@ -4,11 +4,8 @@ function read(){
     var date = parseInt(document.getElementById("date").value);
     console.log(date);
 
-if (date<=0 && date>=32){
+if (date <=0 || date>=32 ){
     alert("invalid date")
     
-}
-else{
-    console.log("something went wrong")
 }
 }
