@@ -45,3 +45,6 @@ console.log(dt)
 
 
 }
+function getAkanName(){
+    
+}
