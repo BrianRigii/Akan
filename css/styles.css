@@ -1,44 +1,36 @@
-
-
-.navi{
-    display: flex;
+.navi {
+  display: flex;
 }
-.logomg{
-    position: absolute;
-    left: 100vh;
-    overflow: hidden;
+.logomg {
+  position: absolute;
+  left: 100vh;
+  overflow: hidden;
 }
-.logo{
-    font-family: 'Fredericka the Great', cursive;  
-    color :#595f6e  
+.logo {
+  font-family: "Fredericka the Great", cursive;
+  color: #595f6e;
 }
-.landing{
-    font-family: 'Poiret One', cursive;
-    margin-top: 40vh;
-    color:black;
-    margin-left: 5vh;
-   
-    
+.landing {
+  font-family: "Poiret One", cursive;
+  margin-top: 40vh;
+  color: black;
+  margin-left: 5vh;
 }
-.my-container{
-   
-    position: absolute;
-    margin-top: 200px;
-    z-index: 1;
-    height: 50vh;
-    
+.my-container {
+  position: absolute;
+  margin-top: 200px;
+  z-index: 1;
+  height: 50vh;
 }
-.cardi{
-    width: 90vh;
+.cardi {
+  width: 90vh;
 }
-.contpg{
-    margin-top: 75vh;
-    background-color:#fefaf6
+.contpg {
+  margin-top: 75vh;
+  background-color: #fefaf6;
 }
-form{
-    position: absolute;
-    top: 120px;
-    justify-content: center;
+form {
+  position: absolute;
+  top: 120px;
+  justify-content: center;
 }
-
-
