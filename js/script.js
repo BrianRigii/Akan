@@ -32,6 +32,10 @@ function read(){
     console.log(date);
     var month= document.getElementById("month").value
     console.log(month)
+    var male= document.getElementById("male")
+    console.log(male)
+    var female= document.getElementById("female")
+    console.log(female)
 
 if (date <=0 || date>=32 ){
     alert("invalid date")
@@ -43,8 +47,15 @@ var birthday = new Date (month +"-"+date)
 let dt = birthday.getDay();
 console.log(dt)
 
+function getAkanName(){
+    if(male.checked==true){
+        alert("Hey Man you were born on a "+daysOfTheWeek[dt]+" your name in ghana would be "+name+maleAkanName[dt])
+    }
+    else if(female.checked==true){
+        alert("Hello you were born on a "+daysOfTheWeek[dt]+" your name in ghana would be "+name+femaleAkanName[dt])
+    }
+    else{console.log("something went wrong ")}
 
 }
-function getAkanName(){
-    
+getAkanName()
 }
