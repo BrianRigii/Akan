@@ -49,10 +49,10 @@ console.log(dt)
 
 function getAkanName(){
     if(male.checked==true){
-        alert("Hey Man you were born on a "+daysOfTheWeek[dt]+" your name in ghana would be "+name+maleAkanName[dt])
+        alert("Hey Man you were born on a "+daysOfTheWeek[dt]+" your name in ghana would be "+name+""+maleAkanName[dt])
     }
     else if(female.checked==true){
-        alert("Hello you were born on a "+daysOfTheWeek[dt]+" your name in ghana would be "+name+femaleAkanName[dt])
+        alert("Hello you were born on a "+daysOfTheWeek[dt]+" your name in ghana would be "+name+ ""+femaleAkanName[dt])
     }
     else{console.log("something went wrong ")}
 
