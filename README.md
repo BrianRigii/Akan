@@ -17,6 +17,9 @@ The user inputs birthdday
 if dates are valid dates 
 display  akan name and day of birth
 
+## links
+you can access the live page at https://brianrigii.github.io/Akan/
+
 ## license
 mit
 
